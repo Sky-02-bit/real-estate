@@ -112,7 +112,7 @@ export async function getLatestProperties() {
             config.databaseId!,
             config.propertiesCollectionId!,
             [
-                Query.orderDesc('$createdAt'),
+                Query.orderAsc('$createdAt'),
                 Query.limit(5),
             ]
         );
