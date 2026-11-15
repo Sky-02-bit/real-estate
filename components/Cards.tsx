@@ -60,7 +60,7 @@ export const FeaturedCard = ({ item, onPress }: Props) => {
         </Text>
       </View>
 
-      <View
+      <View 
         style={{
           position: "absolute",
           bottom: 10,
@@ -101,7 +101,7 @@ export const Card = ({ item, onPress }: Props) => {
     <TouchableOpacity
       onPress={onPress}
       style={{
-        width: 165,
+        width: 172,
         marginBottom: 24,
         backgroundColor: "#FFFFFF",
         borderRadius: 8,
